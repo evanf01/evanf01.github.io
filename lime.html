@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+		*{
+			margin: 0;
+			padding: 0;}
+		.imgbox {
+			display: grid;
+			height: 99.5%;}
+		.center-fit {
+			max-width: 100%;
+			max-height: 99.5vh;
+			margin: auto;}
+    </style>
+	<title>Lime in the Coconut</title>
+</head>
+<body style="background-color:black">
+	<script>
+		function play(){
+		var audio = document.getElementById("audio");
+		audio.play();
+		}
+   </script>
+	<div class="imgbox" style="text-align:center">
+		<img class="center-fit" src="lime.png" alt="Lime in the Coconut" value="PLAY" onclick="play()">
+	</div>
+	<audio id="audio" src="lime.mp3">
+</body>
+</html>
